@@ -104,11 +104,12 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
+                          I have a Team and specialize in, E-commerce,
+                          WordPress, Shopify, Woo-commerce, Landing pages,
+                          Bigcommerce, Dropshipping, Multivendor, and Wholesale
+                          websites, Business Websites, Amazon ALI
+                          Express/Alibaba, and eBay Affiliate store sites. Also,
+                          I have a Design team to make your work easier.
                         </p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
