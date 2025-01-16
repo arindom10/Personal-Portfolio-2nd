@@ -3,6 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/10.png";
 import projImg2 from "../assets/img/2.png";
 import projImg3 from "../assets/img/3.png";
+import projImg4 from "../assets/img/4.png";
+import projImg5 from "../assets/img/5.png";
+import projImg6 from "../assets/img/6.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -27,17 +30,17 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: projImg5,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: projImg6,
     },
   ];
 
