@@ -83,6 +83,10 @@ export const Skills = () => {
                   <img src={meter3} alt="JavaScript Meter" />
                   <h5>Java Script</h5>
                 </div>
+                <div className="item">
+                  <img src={meter2} alt="Brand Identity Meter" />
+                  <h5>Testing and Debugging</h5>
+                </div>
               </Carousel>
             </div>
           </div>

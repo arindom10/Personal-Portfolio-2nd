@@ -10,7 +10,7 @@ export const ProjectCard = ({ title, description, imgUrl, liveLink }) => {
           <span>{description}</span>
           <div className="mt-3">
             <a href={liveLink} target="_blank" rel="noopener noreferrer">
-              <button className="btn btn-primary">Live Link</button>
+              <button className="btn btn-dark">Live Link</button>
             </a>
           </div>
         </div>
