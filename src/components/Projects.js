@@ -13,37 +13,37 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
+      title: "Furniture Store",
       description: "Design & Development",
       imgUrl: projImg1,
       liveLink: "https://furniro-one-tan.vercel.app/",
     },
     {
-      title: "Business Startup",
+      title: "Hotel Booking",
       description: "Design & Development",
       imgUrl: projImg2,
       liveLink: "https://azuredream-lodge.vercel.app/",
     },
     {
-      title: "Business Startup",
+      title: "Daily Shopping",
       description: "Design & Development",
       imgUrl: projImg3,
       liveLink: "https://daily-shopping.vercel.app/",
     },
     {
-      title: "Business Startup",
+      title: "Clothing Brand",
       description: "Design & Development",
       imgUrl: projImg4,
       liveLink: "https://shopsy-clothing-brand-frontend-design.vercel.app/",
     },
     {
-      title: "Business Startup",
+      title: "Food Donation",
       description: "Design & Development",
       imgUrl: projImg5,
       liveLink: "https://m-sc-github-link-30109044.vercel.app/",
     },
     {
-      title: "Business Startup",
+      title: "Restaurant for Good Food",
       description: "Design & Development",
       imgUrl: projImg6,
       liveLink: "https://restaurantforgoodfood.netlify.app/",
