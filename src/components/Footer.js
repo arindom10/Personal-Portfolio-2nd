@@ -40,7 +40,7 @@ export const Footer = () => {
                 <img src={navIcon3} alt="" />
               </a>
             </div>
-            <p> 2024 Copyright By Arindom Kundu . All Rights Reserved</p>
+            <p>Copyright 2025 by Arindom Kundu. All Rights Reserved.</p>
           </Col>
         </Row>
       </Container>
