@@ -65,7 +65,7 @@ export const Banner = () => {
                   }
                 >
                   <span className="tagline">Welcome to my Portfolio!!!</span>
-                  <h1>
+                  <h1 className="fs-1">
                     {`Hi! I'm `}{" "}
                     <span
                       style={{ color: "maroon" }}

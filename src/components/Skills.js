@@ -67,7 +67,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>ReactJs</h5>
+                  <h5>React.Js</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
@@ -79,7 +79,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>Tailwind</h5>
+                  <h5>Tailwind CSS</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
@@ -90,7 +90,11 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img
+        className="background-image-left"
+        src={colorSharp}
+        alt="Background design"
+      />
     </section>
   );
 };

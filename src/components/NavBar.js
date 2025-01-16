@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/img/AK.jpg";
+import logo from "../assets/img/AK-removebg-preview.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/11.svg";
@@ -70,22 +70,37 @@ export const NavBar = () => {
               >
                 Projects
               </Nav.Link>
+              <Nav.Link
+                className={
+                  activeLink === "resume" ? "active navbar-link" : "navbar-link"
+                }
+                target="_blank"
+                href="https://drive.google.com/file/d/1sNufjS4c5wZs0n1dmT9iKUmJ21fN4XzC/view?usp=sharing"
+              >
+                Resume
+              </Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://www.linkedin.com/in/arindom-kundu-402277184/"
                 >
                   <img src={navIcon1} alt="" />
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://www.facebook.com/profile.php?id=100009552123285"
                 >
                   <img src={navIcon2} alt="" />
                 </a>
-                <a target="_blank" href="https://github.com/arindom10">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/arindom10"
+                >
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
