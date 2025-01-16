@@ -70,7 +70,7 @@ export const Banner = () => {
                     <span
                       style={{ color: "maroon" }}
                       className="txt-rotate  "
-                      dataPeriod="1000"
+                      data-Period="1000"
                       data-rotate='[  "ARINDOM KUNDU", "Web Developer" ]'
                     >
                       <span className="wrap">{text}</span>
