@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["ARINDOM KUNDU", "Web Developer"];
+  const toRotate = ["ARINDOM KUNDU", "SOFTWARE ENGINEER"];
   const period = 2000;
   const LinkedinLink = "https://www.linkedin.com/in/arindom-kundu-402277184/";
 
@@ -55,7 +55,7 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
@@ -71,7 +71,7 @@ export const Banner = () => {
                       style={{ color: "maroon" }}
                       className="txt-rotate  "
                       data-Period="1000"
-                      data-rotate='[  "ARINDOM KUNDU", "Web Developer" ]'
+                      data-rotate='[  "ARINDOM KUNDU", "SOFTWARE ENGINEER" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
